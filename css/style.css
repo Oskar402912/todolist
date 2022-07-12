@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px 50px;
+}
+.block {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.title {
+    margin: 20px 0px 10px 0px;
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #000;
+}
+.subtitle {
+    font-size: 25px;
+    color: white;
+}
+.block-list {
+}
+.list {
+}
+.list-just {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.list-just.none{
+    display: none;
+}
+.toDolist {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gainsboro;
+}
+.i{
+    width: 25px;
+    height: 25px;
+    pointer-events: none;
+    background-color: transparent;
+}
+.span {
+    font-size: 20px;
+}
+.span.active{
+    text-decoration: line-through;
+    opacity: .5;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn{
+    cursor: pointer;
+    border: 1px solid white;
+    transition: all .4s linear;
+    opacity: .3;
+    border-radius: 50%;
+}
+.btn:hover {
+    opacity: 1;
+}
+
+
+
+.block-form {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.block-form__header {
+    background-color: aliceblue;
+    padding: 15px;
+    font-size: 18px;
+
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 244);
+}
+.subtitle-block-form {
+    margin-top: 10px;
+    opacity: .4;
+}
+.submit {
+    margin-top: 30px;
+    cursor: pointer;
+    align-self: flex-start;
+    padding: 10px 40px;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+}

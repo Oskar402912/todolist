@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">ToDO приложение</h1>
+      <span class="subtitle">список задач на сегодня:</span>
+      <div class="block">
+          <div class="block-list">
+            <ul class="list">
+              <li class="list-just">
+                <img src="./img/leaf.svg" alt="Empty" width="48" class="mt-3">
+                <div class="empty-list__title">Список дел пуст</div>
+              </li>
+                <!-- <li class="toDolist">
+                  <span>Пример</span>
+                <div class="buttons">
+                  <button data-action="chek" class="btn chek">
+                    <img class="i" src="./img/tick.svg" alt="">
+                  </button>
+                  <button data-action="del" class="btn del">
+                    <img  class="i" src="./img/cross.svg" alt="">
+                  </button>
+                </div>
+              </li> -->
+            </ul>
+        </div>
+    </div>
+
+    <div class="block-form">
+      <div class="block-form__header">
+        <p>Добавить задачу</p>
+      </div>
+      <form class="form" action="">
+        <input class="input" type="text" placeholder="Текст задачи" required>
+        <span class="subtitle-block-form">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+        <button class="submit">Добавить</button>
+      </form>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
